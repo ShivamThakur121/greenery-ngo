@@ -118,7 +118,7 @@ export default function Contact() {
             </div>
 
             {/* Social media connections */}
-            <div className="pt-6 border-t border-gray-100 dark:border-gray-800">
+            {/* <div className="pt-6 border-t border-gray-100 dark:border-gray-800">
               <h4 className="text-xs uppercase tracking-widest font-extrabold text-gray-400 mb-4">Follow Our Progress</h4>
               <div className="flex gap-3">
                 {[FaFacebookF, FaInstagram, FaLinkedinIn].map((Icon, idx) => (
@@ -132,7 +132,7 @@ export default function Contact() {
                   </a>
                 ))}
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Right Form Panel */}

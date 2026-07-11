@@ -60,7 +60,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               Nitya Niroopam Foundation
             </h2>
             <p className="text-[10px] tracking-widest text-gray-500 dark:text-gray-400 font-bold uppercase">
-              Conservation NGO
+              Conservation NGO In Delhi
             </p>
           </div>
         </a>
