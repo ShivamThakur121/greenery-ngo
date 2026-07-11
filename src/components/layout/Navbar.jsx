@@ -118,7 +118,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
             aria-label="Toggle theme mode"
           >
             {darkMode ? (
-              <FaSun className="text-lg text-yellow-500" />
+              <FaMoon className="text-lg text-yellow-500" />
             ) : (
               <FaMoon className="text-lg text-indigo-600" />
             )}
