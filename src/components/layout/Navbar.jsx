@@ -88,7 +88,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
 
           <div className="flex items-center gap-4 border-l border-gray-200 dark:border-gray-800 pl-6">
             {/* Dark Mode Toggle */}
-
+              <FaMoon className="text-xl text-indigo-600 hover:-rotate-12 transition duration-500" />
             <a
               href="#donate"
               className="bg-green-600 hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-600 transition-all duration-300 px-6 py-2.5 rounded-full text-white text-sm font-bold shadow-lg shadow-green-600/10 hover:shadow-green-600/25 active:scale-95"
