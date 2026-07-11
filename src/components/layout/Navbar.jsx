@@ -88,17 +88,6 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
 
           <div className="flex items-center gap-4 border-l border-gray-200 dark:border-gray-800 pl-6">
             {/* Dark Mode Toggle */}
-            <button
-              onClick={toggleDarkMode}
-              className="p-2.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 transition duration-300 focus:outline-none"
-              aria-label="Toggle theme mode"
-            >
-              {darkMode ? (
-                <FaSun className="text-xl text-yellow-500 hover:rotate-45 transition duration-500" />
-              ) : (
-                <FaMoon className="text-xl text-indigo-600 hover:-rotate-12 transition duration-500" />
-              )}
-            </button>
 
             <a
               href="#donate"
